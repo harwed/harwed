@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/mustang.css" />
+    <link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.js"></script>
+	<script type="text/javascript"src="js/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/jssor.js"></script>
+    <script type="text/javascript" src="js/jssor.slider.js"></script>	
+    <script type="text/javascript" src="js/mustang.js"></script>	
+	<script type="text/javascript" src="js/mustang-slider.js"></script>
+	<script type="text/javascript">
+        $.noConflict();	
+		   $(document).ready(function() {
+ 
+            $("#owl-example").owlCarousel({
+			
+			      navigation : true, // Show next and prev buttons
+                  slideSpeed : 300,
+                  paginationSpeed : 400,
+                  singleItem:true
+			
+			
+			});
+ 
+       });
+	</script>
+</head>
+<body>
+    <div class="menu-panel">
+    	<ul class="main-menu">
+    		<li><a href="">Главная</a></li>
+    		<li><a href="">Гостевая</a></li>
+    		<li><a href="">Моя страица</a></li>
+    		<li><a href="">Моё резюме</a></li>
+    		<li id="drop"><a style="cursor:pointer;">Мои работы</a>
+			 <ul id="ul">
+                  <div>
+				  <h3>Работа  шаблонами</h3>
+					  <a href="">Работы по шаблонам</a>
+					  <a href="">Вёрстка шаблонов</a>
+					  <a href="">Тэги шаблонов</a>
+					  <a href="">Тэги меню</a>
+					  <a href="">Темы</a>
+					  <a href="">Как написать</a>
+				  </div>
+                  <div>
+				  <h3>Работа с Photoshop</h3>
+					  <a href="">Вёрстка макетов</a>
+					  <a href="">Слои</a>
+					  <a href="">Примеры</a>
+					  <a href="">Видео уроки</a>
+				  </div>
+                  <div>
+				  <h3>HTML5 CSS3 JS JQUERY</h3>
+					  <a href="">html</a>
+					  <a href="">css</a>
+					  <a href="">js</a>
+					  <a href="">jquery</a>
+					  <a href="">Всё в месте</a>
+				  </div>				  
+			 </ul>
+			</li>
+    		<li><a href="">О нас</a></li>
+    	</ul>
+		<div class="panel"> 
+           <div class="hide-panel"> 
+		       <a  id="reg">Регистрация</a>
+			   <div class="reg"> 
+			     <form action="#">
+				   <h3>РЕГИСТРАЦИЯ НОВОГО ПОЛЬЗОВАТЕЛЯ</h3>
+				   <input type="text" placeholder="Имя" class=""/>
+				   <input type="text1" placeholder="Фамилия" class=""/>
+				   <input type="login" placeholder="Желаемый логин" class="login"/>
+				   <input type="Email" placeholder='Емайл' class="email"/>
+				   <input type="password" placeholder="Пароль" class=""/>
+				   <div class="checkboxes">
+				  <input type="radio" name="male" value="male"/><span>Мужчина</span>
+				   <input type="radio" name="male" value="female"/><span>Женщина</span>
+				   </div>
+				   <button class="buttonblue">Регистрация</button>
+				 </form>
+			   </div>
+			   <a  id="out">Войти</a>
+			   <div class="out">
+			     <h3>Форма входа</h3>
+			     <form action=""> 
+				     <input type="" placeholder="Логин"/>
+				     <input type="" placeholder="Пароль"/>
+				     <button class="buttonblue">Войти<span> ? </span></button>
+				 </form>
+			   </div>
+		   </div>
+		</div>
+    </div>	
+    <div class="wrapper"> 
+	  <header></header>
+	  <section class="slider">
+	    <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 600px;height: 300px; ">
+			<div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1000px; height: 200px;
+				overflow: hidden;">
+				<div><img u="image" src="images/drupal.jpg" /></div>
+				<div><img u="image" src="images/jquery.jpg" /></div>
+				<div><img u="image" src="images/html.png" /></div>
+			</div>
+			    <span u="arrowleft" class="jssora03l"></span>
+                <span u="arrowright" class="jssora03r"></span>
+            </div>
+	  </section>
+	  <main>
+	    <article> 
+			<div id="owl-example" class="owl-carousel">
+			  <div> Your Content </div>
+			  <div> Your Content </div>
+			  <div> Your Content </div>
+			  <div> Your Content </div>
+			  <div> Your Content </div>
+			  <div> Your Content </div>
+			  <div> Your Content </div>
+			 </div>
+		</article>
+	    <aside>
+		  aside
+		</aside>
+	  </main>
+	  <nav class="navbar"> 
+			<div class="left">
+			<div><span><a href="#" u="arrowleft" class="prew"> < </a></span></div>
+			</div>
+			<div class="center">
+			<a href="">1</a>
+			<a href="">2</a>
+			<a href="">3</a>
+			<a href="">4</a>
+			<a href="">5</a>
+			</div>
+			<div class="right">
+			<div><span><a href="#" u="arrowright" class=""> > </a></span></div>
+			</div>
+	  </nav>
+	  <footer></footer>
+	</div>
+	</body>
+</html>
